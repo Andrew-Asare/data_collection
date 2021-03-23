@@ -16,7 +16,10 @@ print(shopping_list)`
 
 ### To add a new value to a list
 `shopping_list.insert(1, "ice cream")
-shopping_list.append("apple")`
+shopping_list.append("coke")`
 
 ### pop() deletes the last item from the list
 ``shopping_list.remove("orange")``
+
+###Can we mix fata types in a list? yes
+mixed_list = [1, 2, 3, "one", "two", "three"]
