@@ -22,21 +22,37 @@ dev_ops_student = {
 # print(dev_ops_student["completed_lessons_names"])
 # print(dev_ops_student["completed_lessons_names"][1])
 
+#
+#
+#
+# # add "operators" in completed_lesson_names
+#
+# dev_ops_student["completed_lessons_names"].append("operators")
+# print(dev_ops_student)
+#
+# # change the completed lesson from 3 to 4
+#
+# dev_ops_student["completed_lessons"] = 4
+# print(dev_ops_student)
+#
+# # remove the "data type from completed_lesson_names
+#
+# dev_ops_student["completed_lessons_names"].remove("data types")
+# print(dev_ops_student)
+
+# Sets? The difference is that sets are unordered
+# Syntax {}
+# Let's create a set
+
+car_parts ={"wheels", "windows", "doors"}
+print(car_parts)
+print(type(car_parts))
+car_parts.add("seats")
+print(car_parts)
+car_parts.discard("doors")
+print(car_parts)
 
 
 
-# add "operators" in completed_lesson_names
-
-dev_ops_student["completed_lessons_names"].append("operators")
-print(dev_ops_student)
-
-# change the completed lesson from 3 to 4
-
-dev_ops_student["completed_lessons"] = 4
-print(dev_ops_student)
-
-# remove the "data type from completed_lesson_names
-
-dev_ops_student["completed_lessons_names"].remove("data types")
-print(dev_ops_student)
-
+# Frozen sets
+#The frozenset() function returns an unchangeable frozenset object (which is like a set object, only unchangeable).
